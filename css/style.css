@@ -237,16 +237,18 @@ li {
 /* SECTION COLLECTION */
 /**************************/
 .collection {
+  margin-top: 128px;
 }
 
 .collection__wrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 16px;
   padding: 32px 0;
 }
 .collection__item__link {
   position: relative;
-  flex-basis: 50%;
   height: 400px;
   margin: 8px;
   overflow: hidden;
@@ -850,7 +852,7 @@ svg:hover {
 /* PAGE SLUGS */
 /* ============================ */
 .slugs__title {
-  margin-top: 44px;
+  margin-top: 88px;
 }
 
 .slugs {
