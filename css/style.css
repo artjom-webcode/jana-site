@@ -245,7 +245,6 @@ li {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  padding: 32px 0;
 }
 .collection__item__link {
   position: relative;
@@ -274,7 +273,7 @@ li {
   position: absolute;
   bottom: 15px;
   left: 15px;
-  font-size: 32px;
+  font-size: 28px;
 }
 .collaboration__icon {
   position: absolute;
@@ -864,6 +863,8 @@ svg:hover {
   align-items: center;
   justify-content: center;
   gap: 44px;
+}
+.slugs__item {
 }
 .slugs__item img {
   max-width: 100%;
